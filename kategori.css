@@ -1,0 +1,57 @@
+#kategori.html,
+body {
+  background-color: #0762c8;
+}
+
+h1 {
+  font-weight: 200;
+  text-align: center;
+  font-size: 24px;
+}
+
+h2 {
+  font-weight: 250;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* den individuelle projekt kasse */
+div.kategori_boks {
+  background-color: #dbdfe7;
+  padding: 50px;
+  text-align: center;
+  margin: 20px;
+}
+
+/* hover effekt */
+div.kategori_boks:hover {
+  background-color: #c2c7d3; /* baggrundsfarve på kasse */
+  cursor: pointer; /* "curser"*/
+}
+
+/* tekst link i kassen */
+div.kategori_boks a {
+  text-decoration: none;
+  color: red;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* DESKTOP TILPASNINGER */
+@media (min-width: 768px) {
+  div.kategori_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 30px;
+  }
+  h2 {
+    font-weight: 250;
+    color: #591c16;
+    font-size: 20px;
+    text-align: center;
+  }
+}
