@@ -19,16 +19,8 @@ h2 {
 
 /* den individuelle projekt kasse */
 div.kategori_boks {
-  background-color: #dbdfe7;
-  padding: 50px;
   text-align: center;
   margin: 20px;
-}
-
-/* hover effekt */
-div.kategori_boks:hover {
-  background-color: #c2c7d3; /* baggrundsfarve på kasse */
-  cursor: pointer; /* "curser"*/
 }
 
 /* tekst link i kassen */
@@ -43,7 +35,7 @@ div.kategori_boks a {
 @media (min-width: 768px) {
   div.kategori_container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
     justify-content: center;
     margin: 30px;
