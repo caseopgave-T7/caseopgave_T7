@@ -8,8 +8,12 @@ body {
 }
 
 a {
-    color: #fff;
+    color: #FF671F;
     text-decoration: none;
+}
+
+h3 {
+    color: #FF671F;
 }
 
 header {
@@ -51,7 +55,7 @@ nav ul li {
     font-size: 1.2rem;
     max-width: 800px;
     margin: 20px auto 0;
-    color: #D9E9F8;
+    color: #FF671F;
 }
 
 
@@ -76,12 +80,25 @@ nav ul li {
     margin-bottom: 20px;
 }
 
-.equipment-grid .item h3 {
-    font-size: 1.2rem;
-    color: #FF671F;
-}
 
 .social-links {
     display: flex;
     gap: 10px;
+}
+
+@media (max-width: 799px) {
+    /* h1  (
+        font-size: 80px;
+
+    ) */
+}
+
+@media (max-width: 800px) {
+    /* h1  (
+        font-size: 200px;
+
+    ) */
+    .equipment-grid {
+        grid-template-columns: 1fr;
+    }
 }
